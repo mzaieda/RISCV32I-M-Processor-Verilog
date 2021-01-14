@@ -1,0 +1,104 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Tue Nov 24 01:04:26 2020
+| Host         : CSE-P07-2168-07 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RISCVHandler_control_sets_placed.rpt
+| Design       : RISCVHandler
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |   123 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             117 |           27 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             120 |           40 |
+| Yes          | No                    | No                     |              72 |           25 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|              Clock Signal              |                Enable Signal                |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++----------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|  nolabel_line10/IN7/out_signal_OBUF[0] |                                             |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN2/rxshiftreg[9]_i_1__1_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN1/rxshiftreg[9]_i_1__0_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN5/rxshiftreg[9]_i_1__4_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN0/rxshiftreg[9]_i_1_n_0    |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN7/data0[0]                 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN4/rxshiftreg[9]_i_1__3_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN3/rxshiftreg[9]_i_1__2_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN6/rxshiftreg[9]_i_1__5_n_0 |                                             |                1 |              1 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN7/sel                      | nolabel_line10/IN7/bitcounter[3]_i_1__6_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN6/bitcounter[3]_i_2__5_n_0 | nolabel_line10/IN6/bitcounter[3]_i_1__5_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN5/bitcounter[3]_i_2__4_n_0 | nolabel_line10/IN5/bitcounter[3]_i_1__4_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN4/bitcounter[3]_i_2__3_n_0 | nolabel_line10/IN4/bitcounter[3]_i_1__3_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN0/bitcounter[3]_i_2_n_0    | nolabel_line10/IN0/bitcounter[3]_i_1_n_0    |                2 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN2/bitcounter[3]_i_2__1_n_0 | nolabel_line10/IN2/bitcounter[3]_i_1__1_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN1/bitcounter[3]_i_2__0_n_0 | nolabel_line10/IN1/bitcounter[3]_i_1__0_n_0 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN3/bitcounter[3]_i_2__2_n_0 | nolabel_line10/IN3/bitcounter[3]_i_1__2_n_0 |                1 |              4 |
+|  nolabel_line10/IN5/E[0]               |                                             |                                             |                2 |              6 |
+|  Q_reg_i_1_n_0                         |                                             |                                             |                1 |              6 |
+|  ssdclk_IBUF_BUFG                      |                                             | uart_in_IBUF                                |                8 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN7/rxshiftreg[0]            |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN6/rxshiftreg[0]            |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN5/rxshiftreg[5]            |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN4/rxshiftreg[5]            |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN0/rxshiftreg_0[5]          |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN3/rxshiftreg[5]            |                                             |                2 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN2/rxshiftreg[5]            |                                             |                3 |              8 |
+|  ssdclk_IBUF_BUFG                      | nolabel_line10/IN1/rxshiftreg[0]            |                                             |                2 |              8 |
+|  slow_clk                              |                                             |                                             |                3 |             12 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN7/clear                    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN6/counter[0]_i_1__5_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN5/counter[0]_i_1__4_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN0/counter[0]_i_1_n_0       |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN4/counter[0]_i_1__3_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN2/counter[0]_i_1__1_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN1/counter[0]_i_1__0_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             | nolabel_line10/IN3/counter[0]_i_1__2_n_0    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                      |                                             |                                             |               20 |             92 |
++----------------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     9 |
+| 4      |                     8 |
+| 6      |                     2 |
+| 8      |                     9 |
+| 12     |                     1 |
+| 14     |                     8 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

@@ -1,0 +1,7 @@
+Kareem Kassab
+
+Worked on errors that appeared in the previously supported instructions such as Branch instructions.
+
+worked on errors related to the slower clock+
+
+I worked on the Multiplication/division/remainder instructions bonus, I created cases for the operation by modifying the ALU Module.

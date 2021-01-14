@@ -1,0 +1,24 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 4ee1212ba5644d43801cb9f582c7cfdf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISCVHandler_tb_behav xil_defaultlib.RISCVHandler_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:10]
+ERROR: [VRFC 10-2063] Module <UART_receiver_switch> not found while processing module instance <IN7> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/multiple_keys.v:9]
+ERROR: [VRFC 10-2063] Module <RippleCarryAdder> not found while processing module instance <first_adder> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:84]
+ERROR: [VRFC 10-2063] Module <muxarray> not found while processing module instance <'Undefined'>
+ERROR: [VRFC 10-2063] Module <N_bit_register> not found while processing module instance <IF_ID> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:92]
+ERROR: [VRFC 10-2063] Module <RegFile> not found while processing module instance <Register_File> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:113]
+ERROR: [VRFC 10-2063] Module <rv32_ImmGen> not found while processing module instance <immediate_gen> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:118]
+ERROR: [VRFC 10-2063] Module <control_unit> not found while processing module instance <control_unit1> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:125]
+ERROR: [VRFC 10-2063] Module <mux_4x1> not found while processing module instance <mux_before_regfile> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:138]
+ERROR: [VRFC 10-2063] Module <shift_one> not found while processing module instance <shifting_one> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:154]
+ERROR: [VRFC 10-2063] Module <ALU_control_unit> not found while processing module instance <alu_control_unit> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:169]
+ERROR: [VRFC 10-2063] Module <forwardingUnit> not found while processing module instance <forward_module> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:192]
+ERROR: [VRFC 10-2063] Module <prv32_ALU> not found while processing module instance <ALUModule> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:220]
+ERROR: [VRFC 10-2063] Module <branchOutput> not found while processing module instance <branchout> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:259]
+ERROR: [VRFC 10-2063] Module <mux_4x1_four> not found while processing module instance <jal_hybrdid_mux> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:269]
+ERROR: [VRFC 10-2063] Module <PC_register> not found while processing module instance <PC_reg> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:271]
+ERROR: [VRFC 10-2063] Module <single_memory> not found while processing module instance <Hybrid_Mem> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:286]
+ERROR: [VRFC 10-2063] Module <Four_Digit_Seven_Segment_Driver_Optimized> not found while processing module instance <modssd> [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:348]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

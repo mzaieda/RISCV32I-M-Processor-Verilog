@@ -1,0 +1,1154 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+Process ID: 11024
+
+Current time: 	11/19/20 11:10:41 PM EET
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	CSE.CAL
+User home directory: C:/Users/CSE.CAL
+User working directory: C:/Users/CSE.CAL/Desktop/LOL/MS4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/CSE.CAL/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/CSE.CAL/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 548 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 57 MB (+57205kb) [00:00:03]
+// [Engine Memory]: 399 MB (+267233kb) [00:00:03]
+// Opening Vivado Project: C:\Users\CSE.CAL\Desktop\LOL\MS4\MS4.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+4536kb) [00:00:05]
+// [Engine Memory]: 506 MB (+91403kb) [00:00:05]
+// [Engine Memory]: 543 MB (+11394kb) [00:00:05]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Project name: MS4; location: C:/Users/CSE.CAL/Desktop/LOL/MS4; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 31 MB. Current time: 11/19/20 11:10:43 PM EET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 572 MB (+2261kb) [00:00:13]
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), control_unit1 - control_unit (control_unit.v)]", 9, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), control_unit1 - control_unit (control_unit.v)]", 9, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 589 MB. GUI used memory: 33 MB. Current time: 11/19/20 11:11:13 PM EET
+selectCodeEditor("control_unit.v", 174, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 75 seconds
+selectCodeEditor("control_unit.v", 734, 40); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("control_unit.v", 356, 40); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("control_unit.v", 24, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 186, 272); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("control_unit.v", 61, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 25, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 20, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 54, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 297, 169); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("control_unit.v", 39, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 41, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("control_unit.v", 326, 205); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 18, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 125, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 185, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 27, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 206, 274); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 189, 326); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 110, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("control_unit.v", 149, 358); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 173, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 172, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 74, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 138, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 139, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("control_unit.v", 141, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 167, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("control_unit.v", 147, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// Elapsed time: 18 seconds
+selectCodeEditor("RISCVHandler.v", 195, 357); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 275, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branchadd", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branchadd"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 172, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 31 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "mux_4"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 282, 192); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 67 MB (+3kb) [00:06:47]
+// Elapsed time: 20 seconds
+selectCodeEditor("RISCVHandler.v", 739, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 72 MB (+926kb) [00:06:52]
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RISCVHandler.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 75 MB (+82kb) [00:08:03]
+// Elapsed time: 22 seconds
+selectCodeEditor("RISCVHandler.v", 212, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 121, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RISCVHandler.v", 133, 289); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "control_in", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "control_in"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "control_in"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 230, 21); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 602 MB (+1478kb) [00:09:15]
+// Elapsed time: 27 seconds
+selectCodeEditor("RISCVHandler.v", 606, 29); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 94 seconds
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 80 MB (+946kb) [00:10:57]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 33 seconds
+selectCodeEditor("RISCVHandler.v", 457, 110); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "jal_sele"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 193, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 120, 101); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 194, 110); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "jal_sele", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "jal_sele"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "jal_sele"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 240, 25); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 66, 41); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX_ctrl", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX_ctrl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 68, 21); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctr"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 90, 26); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 41 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "my_pc"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 91, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 91, 367, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 91, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 91, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("RISCVHandler.v", 62, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 62, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 62, 362, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 289, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 289, 364, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 84 MB (+449kb) [00:14:45]
+selectCodeEditor("RISCVHandler.v", 159, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 159, 366, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 159, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RISCVHandler.v", 631, 174); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 634, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 29, 174); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 51 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "mux_4x1"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 40, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 40, 368, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 15, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 53, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 53, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 53, 368, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 53, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 184, 287); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 186, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 611 MB. GUI used memory: 35 MB. Current time: 11/19/20 11:27:10 PM EET
+selectCodeEditor("RISCVHandler.v", 246, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 118, 275); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("RISCVHandler.v", 204, 272); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 226, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), mux4 - mux_4x1 (mux_4x1.v)]", 11, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), mux4 - mux_4x1 (mux_4x1.v)]", 11, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("mux_4x1.v", 148, 26); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("mux_4x1.v", 176, 186); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_"); // l:ak (au:e, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_sr"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 215, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("RISCVHandler.v", 272, 271); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("RISCVHandler.v", 243, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 171 seconds
+selectCodeEditor("RISCVHandler.v", 240, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 87 seconds
+selectCodeEditor("RISCVHandler.v", 53, 43); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 55, 61); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 119, 42); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 59, 57); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 184, 65); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 185, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 228, 30); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("RISCVHandler.v", 650, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("RISCVHandler.v", 132, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 124, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("RISCVHandler.v", 173, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("RISCVHandler.v", 186, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1_four.v)]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1_four.v)]", 6, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("mux_4x1_four.v", 100, 27); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 90 MB (+1258kb) [00:25:29]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), instruction_mem - instrMemory (instrMemory.v)]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), instruction_mem - instrMemory (instrMemory.v)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v), instruction_mem - instrMemory (instrMemory.v)]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Sources_search"); // r:JideToggleButton (g:CommandBar, cd:JFrame): TRUE
+// Elapsed time: 14 seconds
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "mux_4x1_f"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1_four.v)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1_four.v)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("mux_4x1_four.v", 93, 32); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "mux_4x1", true); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1.v)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_4x1 (mux_4x1.v)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RISCVHandler_tb (RISCVHandler_tb.v)]", 6, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RISCVHandler_tb (RISCVHandler_tb.v)]", 6, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("RISCVHandler_tb.v", 83, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RISCVHandler.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 285, 231, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("RISCVHandler.v", 147, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 78 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ripple_car"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 330, 60); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_inst"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("RISCVHandler.v", 217, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ripplecarryadd", true); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 21, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 195, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 195, 345, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 195, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 666, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 219, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 625, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("RISCVHandler.v", 330, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "PC_reg"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 240, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 211, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("RISCVHandler.v", 557, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 557, 332, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ripplecar", true); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 30, 221); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("RISCVHandler.v", 187, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 190, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 184, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 184, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("RISCVHandler.v", 475, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("RISCVHandler.v", 395, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 395, 196, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 97 seconds
+selectCodeEditor("RISCVHandler.v", 329, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 398, 206); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl", true); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 12 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 342, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 10 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 61 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("RISCVHandler.v", 17, 361); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 49 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "pc_reg"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 281, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 281, 315, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("RISCVHandler.v", 281, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 281, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "and_out"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 109, 311); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 233, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor("RISCVHandler.v", 160, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 160, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl", true); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 91, 26); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 31 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Memory File]", 41); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Memory File, instructions_mem.mem]", 42, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Memory File, instructions_mem.mem]", 42, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("instructions_mem.mem", 96, 110); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("instructions_mem.mem", 121, 109); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "instructions_mem.mem", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'RISCVHandler_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/instructions_mem.mem' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Thu Nov 19 23:53:20 2020... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RISCVHandler_tb_behav -key {Behavioral:sim_1:Functional:RISCVHandler_tb} -tclbatch {RISCVHandler_tb.tcl} -view {C:/Users/CSE.CAL/Desktop/LOL/MS4/RISCVHandler_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 634 MB (+1513kb) [00:42:46]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/CSE.CAL/Desktop/LOL/MS4/RISCVHandler_tb_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source RISCVHandler_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 2000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISCVHandler_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 2000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 894.539 ; gain = 0.000 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e:bt (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 634 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:53:23 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 634 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:53:28 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 29 seconds
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "test ; RISCVHandler ; Verilog Module", 1); // d:ab (JViewport:JComponent, cd:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:53:56 PM EET
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (g:CommandBar, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:54:04 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 23 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 426, -13); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 466, -3); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:54:28 PM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 413, -8); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 11 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 476, 4); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 566, 4); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 47 MB. Current time: 11/19/20 11:54:43 PM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 624, 13); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 624, 13); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 624, 13); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 624, 13); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u:K (t:D, cd:JFrame) - Node
+// Elapsed time: 12 seconds
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, actregs[0:31][31:0]]", 3); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 48 MB. Current time: 11/19/20 11:55:09 PM EET
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, actregs[0:31][31:0]]", 3, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 86 MB. Current time: 11/19/20 11:55:15 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 61 MB. Current time: 11/19/20 11:55:18 PM EET
+// [Engine Memory]: 671 MB (+6350kb) [00:44:49]
+// Elapsed time: 34 seconds
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "mux4 ; mux_4x1 ; Verilog Module", 10, "mux_4x1", 1, false); // d:ab (JViewport:JComponent, cd:JFrame)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, "mux4 ; mux_4x1 ; Verilog Module", 10, "mux4", 0, false); // d:ab (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 98 MB (+4142kb) [00:45:12]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Elapsed time: 14 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 265, 52); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 49 MB. Current time: 11/19/20 11:56:02 PM EET
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Radix"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem((HResource) null, "Signed Decimal"); // P:JCheckBoxMenuItem (JPopupMenu:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 11 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, s0[1:0]]", 6); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 23 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b:bt (cd:JFrame):  Relaunch Simulation : addNotify
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 97 MB. Current time: 11/19/20 11:56:47 PM EET
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'RISCVHandler_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/instructions_mem.mem' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2016.4 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 952.875 ; gain = 0.000 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Relaunch Simulation"); // b:bt (cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 53 MB. Current time: 11/19/20 11:58:22 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 52 MB. Current time: 11/19/20 11:58:23 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 93 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 347, -12); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 73 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 53 MB. Current time: 11/19/20 11:59:43 PM EET
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISCVHandler (RISCVHandler.v)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("RISCVHandler.v", 95, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 333 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "and_out"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 160, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "IF_ID_fir"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 204, 288); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("RISCVHandler.v", 56, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 97 seconds
+selectCodeEditor("RISCVHandler.v", 54, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 231, 72); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 28, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("RISCVHandler.v", 224, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 218, 43); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("RISCVHandler.v", 61, 58); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("RISCVHandler.v", 56, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 286, 59); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 56, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("RISCVHandler.v", 54, 311); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 181, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("RISCVHandler.v", 179, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 81 seconds
+selectCodeEditor("RISCVHandler.v", 226, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 232, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 232, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 186, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 54, 139); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 334, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("RISCVHandler.v", 54, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 97, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 53 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "auipc_in"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 328, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 205, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 47 seconds
+selectCodeEditor("RISCVHandler.v", 129, 326); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ex_mem_branchadd"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 736, 143); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 22, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 17, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RISCVHandler.v", 12, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 151, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 293, 154); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("RISCVHandler.v", 337, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 103 MB (+180kb) [01:04:44]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "auipc_in"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 145, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 33 seconds
+selectCodeEditor("RISCVHandler.v", 315, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "control_in", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "control_in"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 422, 25); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 92, 26); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 42 seconds
+selectCodeEditor("RISCVHandler.v", 198, 273); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 97, 25); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+selectCodeEditor("RISCVHandler.v", 182, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 188, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 77, 156); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 84 seconds
+selectCodeEditor("RISCVHandler.v", 89, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectCodeEditor("RISCVHandler.v", 89, 56); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor("RISCVHandler.v", 218, 186); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("RISCVHandler.v", 146, 135); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 195, 132); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("RISCVHandler.v", 284, 240); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 101, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 174, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("RISCVHandler.v", 242, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("RISCVHandler.v", 134, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 60 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 506, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 503, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ripp", true); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 635, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 552, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 635, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 52 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 186, 108); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 109 MB (+474kb) [01:15:10]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM_ctrl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 45, 25); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 63 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ctrl"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 22 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "EX_MEM (cl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 185, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB (cl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 185, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u:K (t:D, cd:JFrame)
+// Elapsed time: 13 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ID_EX (cl"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 187, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 347, -12); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 347, -12); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 347, -12); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'RISCVHandler_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/instructions_mem.mem' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 52 MB. Current time: 11/20/20 12:29:47 AM EET
+// a:a (cd:JFrame): Critical Messages: addNotify
+// 'd' command handler elapsed time: 11 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/xvlog.log' file for more information.", 0); // b:a (D:JPanel, a:a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 687, 92); // dn:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("RISCVHandler.v", 142, 343); // bF:I (JPanel:JComponent, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_BranchAddOut"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 41, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_BranchAddOut"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_BranchAddOut"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_BranchAddOut"); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 458, 8); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "RISCVHandler.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("RISCVHandler.v", 255, 40); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("RISCVHandler.v", 288, 25); // bF:I (JPanel:JComponent, cd:JFrame)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "RISCVHandler.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_first_adder_output", true); // l:ak (au:e, cd:JFrame)
+selectCodeEditor("RISCVHandler.v", 39, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RISCVHandler.v", 49, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_first_adder_output"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_first_adder_output"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_first_adder_output"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 18 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_ctrl", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_ctrl"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MEM_WB_ctrl"); // l:ak (au:e, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'RISCVHandler_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/instructions_mem.mem' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2016.4 (64-bit)   **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016   **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav/xsim.dir/RISCVHandler_tb_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 00:33:04 2020... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/CSE.CAL/Desktop/LOL/MS4/MS4.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RISCVHandler_tb_behav -key {Behavioral:sim_1:Functional:RISCVHandler_tb} -tclbatch {RISCVHandler_tb.tcl} -view {C:/Users/CSE.CAL/Desktop/LOL/MS4/RISCVHandler_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/CSE.CAL/Desktop/LOL/MS4/RISCVHandler_tb_behav.wcfg 
+// Tcl Message: source RISCVHandler_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 2000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISCVHandler_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 2000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 968.809 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e:bt (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 55 MB. Current time: 11/20/20 12:33:11 AM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 67 MB. Current time: 11/20/20 12:33:14 AM EET
+// Elapsed time: 10 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (g:CommandBar, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 108, -9); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 54 MB. Current time: 11/20/20 12:33:20 AM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 39, -20); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 111, -3); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 176, 13); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 54 MB. Current time: 11/20/20 12:33:30 AM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 260, 20); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 397, 16); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 467, 18); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 57 MB. Current time: 11/20/20 12:33:31 AM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 23); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("RISCVHandler.v", 186, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "mme", true); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 23 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l:ak (au:e, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 23); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 23); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 23); // l:a (JViewport:JComponent, cd:JFrame)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u:K (t:D, cd:JFrame) - Node
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 40, -8); // l:a (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS

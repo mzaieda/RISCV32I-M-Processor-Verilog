@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed Nov 25 21:51:06 2020
+# Process ID: 6880
+# Current directory: C:/Users/csce/Desktop/omar2/MS4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15924 C:\Users\csce\Desktop\omar2\MS4\MS4.xpr
+# Log file: C:/Users/csce/Desktop/omar2/MS4/vivado.log
+# Journal file: C:/Users/csce/Desktop/omar2/MS4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/csce/Desktop/omar2/MS4/MS4.xpr

@@ -1,0 +1,1298 @@
+
+*** Running vivado
+    with args -log RISCVHandler.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISCVHandler.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source RISCVHandler.tcl -notrace
+Command: synth_design -top RISCVHandler -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8260 
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:25]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:37]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_receiver_switch with formal parameter declaration list [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:38]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 316.262 ; gain = 106.449
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RISCVHandler' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:5]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:10]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_multiple_Keys' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/multiple_keys.v:2]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01100001 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized0' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01110011 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized0' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized1' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01100100 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized1' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized2' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01100110 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized2' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized3' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01111010 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized3' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized4' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01111000 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized4' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized5' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01100011 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized5' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-638] synthesizing module 'UART_receiver_switch__parameterized6' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+	Parameter key bound to: 8'b01110110 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter baud_rate bound to: 9600 - type: integer 
+	Parameter oversamples bound to: 4 - type: integer 
+	Parameter reset_counter bound to: 2604 - type: integer 
+	Parameter counter_mid_sample bound to: 2 - type: integer 
+	Parameter num_bit bound to: 10 - type: integer 
+	Parameter reset_high_seconds bound to: 1 - type: integer 
+	Parameter reset_time_counter bound to: 100000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:87]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_switch__parameterized6' (1#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/UART_receiver_switch.v:3]
+INFO: [Synth 8-256] done synthesizing module 'UART_receiver_multiple_Keys' (2#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/multiple_keys.v:2]
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RippleCarryAdder.v:18]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RippleCarryAdder.v:6]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (3#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RippleCarryAdder.v:6]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder' (4#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RippleCarryAdder.v:18]
+WARNING: [Synth 8-689] width (32) of port connection 'out' does not match port width (33) of module 'RippleCarryAdder' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:84]
+WARNING: [Synth 8-387] label required on module instance [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+INFO: [Synth 8-638] synthesizing module 'muxarray' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/muxarray.v:4]
+INFO: [Synth 8-638] synthesizing module 'mux2' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux2.v:4]
+INFO: [Synth 8-256] done synthesizing module 'mux2' (5#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux2.v:4]
+INFO: [Synth 8-256] done synthesizing module 'muxarray' (6#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/muxarray.v:4]
+WARNING: [Synth 8-689] width (13) of port connection 'a' does not match port width (32) of module 'muxarray' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+WARNING: [Synth 8-689] width (32) of port connection 'sel' does not match port width (1) of module 'muxarray' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+WARNING: [Synth 8-350] instance 'nolabel_line86' of module 'muxarray' requires 4 connections, but only 3 given [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+INFO: [Synth 8-638] synthesizing module 'N_bit_register' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+	Parameter N bound to: 120 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'dflipflop' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/dflipflop.v:4]
+INFO: [Synth 8-256] done synthesizing module 'dflipflop' (7#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/dflipflop.v:4]
+INFO: [Synth 8-256] done synthesizing module 'N_bit_register' (8#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+WARNING: [Synth 8-689] width (96) of port connection 'D' does not match port width (120) of module 'N_bit_register' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:92]
+WARNING: [Synth 8-689] width (96) of port connection 'out' does not match port width (120) of module 'N_bit_register' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:92]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RegFile.v:4]
+INFO: [Synth 8-638] synthesizing module 'PC_register' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/PC_register.v:4]
+INFO: [Synth 8-256] done synthesizing module 'PC_register' (9#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/PC_register.v:4]
+INFO: [Synth 8-638] synthesizing module 'decoder32' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/decoder32.v:6]
+INFO: [Synth 8-256] done synthesizing module 'decoder32' (10#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/decoder32.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'regwrite' does not match port width (1) of module 'decoder32' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RegFile.v:27]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (11#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RegFile.v:4]
+INFO: [Synth 8-638] synthesizing module 'rv32_ImmGen' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/rv32_ImmGen.v:3]
+INFO: [Synth 8-256] done synthesizing module 'rv32_ImmGen' (12#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/rv32_ImmGen.v:3]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/control_unit.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/control_unit.v:26]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (13#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/control_unit.v:2]
+WARNING: [Synth 8-689] width (32) of port connection 'out' does not match port width (33) of module 'RippleCarryAdder' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:135]
+INFO: [Synth 8-638] synthesizing module 'mux_4x1' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux_4x1.v:2]
+INFO: [Synth 8-256] done synthesizing module 'mux_4x1' (14#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux_4x1.v:2]
+INFO: [Synth 8-638] synthesizing module 'N_bit_register__parameterized0' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+	Parameter N bound to: 192 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'N_bit_register__parameterized0' (14#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+WARNING: [Synth 8-689] width (211) of port connection 'D' does not match port width (192) of module 'N_bit_register__parameterized0' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:146]
+INFO: [Synth 8-638] synthesizing module 'shift_one' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/shift_one.v:4]
+INFO: [Synth 8-256] done synthesizing module 'shift_one' (15#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/shift_one.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'shift_one' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:154]
+WARNING: [Synth 8-689] width (32) of port connection 'out' does not match port width (33) of module 'RippleCarryAdder' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:158]
+INFO: [Synth 8-638] synthesizing module 'ALU_control_unit' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v:7]
+INFO: [Synth 8-256] done synthesizing module 'ALU_control_unit' (16#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v:4]
+INFO: [Synth 8-638] synthesizing module 'forwardingUnit' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/forwardingUnit.v:2]
+INFO: [Synth 8-256] done synthesizing module 'forwardingUnit' (17#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/forwardingUnit.v:2]
+INFO: [Synth 8-638] synthesizing module 'prv32_ALU' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/prv32_ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'shifter' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/shifter.v:17]
+INFO: [Synth 8-256] done synthesizing module 'shifter' (18#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/shifter.v:17]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/prv32_ALU.v:26]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/prv32_ALU.v:26]
+INFO: [Synth 8-256] done synthesizing module 'prv32_ALU' (19#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/prv32_ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'N_bit_register__parameterized1' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+	Parameter N bound to: 251 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'N_bit_register__parameterized1' (19#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+WARNING: [Synth 8-689] width (185) of port connection 'D' does not match port width (251) of module 'N_bit_register__parameterized1' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:254]
+WARNING: [Synth 8-689] width (185) of port connection 'out' does not match port width (251) of module 'N_bit_register__parameterized1' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:255]
+INFO: [Synth 8-638] synthesizing module 'branchOutput' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/branchOutput.v:17]
+INFO: [Synth 8-256] done synthesizing module 'branchOutput' (20#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/branchOutput.v:17]
+INFO: [Synth 8-638] synthesizing module 'mux_4x1_four' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux_4x1_four.v:2]
+INFO: [Synth 8-256] done synthesizing module 'mux_4x1_four' (21#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux_4x1_four.v:2]
+INFO: [Synth 8-638] synthesizing module 'single_memory' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:3]
+INFO: [Synth 8-3876] $readmem data file 'instructions_mem.mem' is read successfully [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:13]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:14]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:15]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:16]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:18]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:19]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:20]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:21]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:22]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:23]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:24]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:25]
+WARNING: [Synth 8-4767] Trying to implement RAM 'mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "mem_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'single_memory' (22#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:3]
+INFO: [Synth 8-638] synthesizing module 'N_bit_register__parameterized2' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+	Parameter N bound to: 175 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'N_bit_register__parameterized2' (22#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/N_bit_register.v:3]
+WARNING: [Synth 8-689] width (169) of port connection 'D' does not match port width (175) of module 'N_bit_register__parameterized2' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:301]
+WARNING: [Synth 8-689] width (169) of port connection 'out' does not match port width (175) of module 'N_bit_register__parameterized2' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:302]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:330]
+INFO: [Synth 8-638] synthesizing module 'Four_Digit_Seven_Segment_Driver_Optimized' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:54]
+INFO: [Synth 8-638] synthesizing module 'BCD' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:2]
+WARNING: [Synth 8-324] index 12 out of range [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+WARNING: [Synth 8-324] index 11 out of range [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+WARNING: [Synth 8-324] index 10 out of range [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+WARNING: [Synth 8-324] index 9 out of range [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+WARNING: [Synth 8-324] index 8 out of range [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:34]
+INFO: [Synth 8-256] done synthesizing module 'BCD' (23#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:2]
+WARNING: [Synth 8-689] width (13) of port connection 'num' does not match port width (8) of module 'BCD' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:86]
+INFO: [Synth 8-256] done synthesizing module 'Four_Digit_Seven_Segment_Driver_Optimized' (24#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/Four_Digit_Seven_Segment_Driver_Optimized.v:54]
+WARNING: [Synth 8-3848] Net LedSel in module/entity RISCVHandler does not have driver. [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:16]
+WARNING: [Synth 8-3848] Net rst in module/entity RISCVHandler does not have driver. [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:9]
+WARNING: [Synth 8-3848] Net controls_or_nop in module/entity RISCVHandler does not have driver. [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:85]
+INFO: [Synth 8-256] done synthesizing module 'RISCVHandler' (25#1) [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:5]
+WARNING: [Synth 8-3331] design shift_one has unconnected port in[31]
+WARNING: [Synth 8-3331] design rv32_ImmGen has unconnected port IR[1]
+WARNING: [Synth 8-3331] design rv32_ImmGen has unconnected port IR[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 361.023 ; gain = 151.211
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin nolabel_line86:sel to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:86]
+WARNING: [Synth 8-3295] tying undriven pin IF_ID:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:92]
+WARNING: [Synth 8-3295] tying undriven pin Register_File:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:113]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[178] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[177] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[176] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[175] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[174] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[173] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[172] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[171] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[170] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[169] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[168] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[167] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[166] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[165] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[164] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[163] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[162] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[161] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[160] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[159] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[158] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[157] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[156] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[155] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[154] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[153] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[152] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[151] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[150] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[149] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[148] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin ID_EX:D[147] to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:145]
+WARNING: [Synth 8-3295] tying undriven pin EX_MEM:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:253]
+WARNING: [Synth 8-3295] tying undriven pin PC_reg:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:271]
+WARNING: [Synth 8-3295] tying undriven pin MEM_WB:rst to constant 0 [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:300]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 361.023 ; gain = 151.211
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/constrs_1/new/my_contraint.xdc]
+Finished Parsing XDC File [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/constrs_1/new/my_contraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/constrs_1/new/my_contraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RISCVHandler_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RISCVHandler_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 685.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "inc_bitcounter" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Jal_selection" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_check" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "mux_spade_selection" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "ALU_selection" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/prv32_ALU.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/control_unit.v:29]
+WARNING: [Synth 8-327] inferring latch for variable 'mux_spade_selection_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/control_unit.v:30]
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_selection_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v:10]
+WARNING: [Synth 8-327] inferring latch for variable 'state_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/shifter.v:26]
+WARNING: [Synth 8-327] inferring latch for variable 'branch_output_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/branchOutput.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/mux_4x1_four.v:9]
+WARNING: [Synth 8-327] inferring latch for variable 'my_data_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/single_memory.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'num_reg' [C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.srcs/sources_1/new/RISCVHandler.v:331]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 7     
+	   2 Input      4 Bit       Adders := 20    
+	   2 Input      2 Bit       Adders := 8     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 96    
+	   2 Input      1 Bit         XORs := 96    
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 8     
+	                4 Bit    Registers := 8     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 1859  
++---Muxes : 
+	   3 Input    512 Bit        Muxes := 1     
+	   2 Input    512 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 272   
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   3 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	  14 Input      2 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 56    
+	   4 Input      1 Bit        Muxes := 11    
+	  12 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RISCVHandler 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module UART_receiver_switch__parameterized6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module RippleCarryAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
+Module dflipflop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module rv32_ImmGen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+Module control_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input      2 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 1     
+Module mux_4x1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module ALU_control_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+	   7 Input      1 Bit        Muxes := 1     
+Module forwardingUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+Module shifter 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module prv32_ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   4 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module branchOutput 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      1 Bit        Muxes := 1     
+Module mux_4x1_four 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module single_memory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 7     
++---Muxes : 
+	   3 Input    512 Bit        Muxes := 1     
+	   2 Input    512 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 256   
+	   5 Input      1 Bit        Muxes := 1     
+Module BCD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 12    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 7     
+Module Four_Digit_Seven_Segment_Driver_Optimized 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "IN7/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN6/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN5/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN4/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN3/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN2/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN1/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IN0/shift" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "IN7/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN6/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN5/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN4/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN3/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN2/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN1/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN0/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN0/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN1/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN2/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN3/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN4/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN5/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN6/output_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IN7/output_reset" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Four_Digit_Seven_Segment_Driver_Optimized has unconnected port num[12]
+WARNING: [Synth 8-3331] design Four_Digit_Seven_Segment_Driver_Optimized has unconnected port num[11]
+WARNING: [Synth 8-3331] design Four_Digit_Seven_Segment_Driver_Optimized has unconnected port num[10]
+WARNING: [Synth 8-3331] design Four_Digit_Seven_Segment_Driver_Optimized has unconnected port num[9]
+WARNING: [Synth 8-3331] design Four_Digit_Seven_Segment_Driver_Optimized has unconnected port num[8]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[31]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[30]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[29]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[28]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[27]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[26]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[25]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[24]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[23]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[22]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[21]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[20]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[19]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[18]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[17]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[16]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[15]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[14]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[13]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[12]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[11]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[10]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[9]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[8]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[7]
+WARNING: [Synth 8-3331] design single_memory has unconnected port addr[6]
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[156].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[158].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[159].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[160].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[161].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[162].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[163].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[164].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[165].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[166].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[167].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[168].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[169].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[170].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[171].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[172].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[173].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[174].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[175].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[176].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[177].FF/Q_reg' (FDC) to 'ID_EX/genblk1[178].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[178].FF/Q_reg' (FDC) to 'ID_EX/genblk1[154].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[151].FF/Q_reg' (FDC) to 'ID_EX/genblk1[154].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[150].FF/Q_reg' (FDC) to 'ID_EX/genblk1[154].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[153].FF/Q_reg' (FDC) to 'ID_EX/genblk1[154].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[154].FF/Q_reg' (FDC) to 'ID_EX/genblk1[152].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[157].FF/Q_reg' (FDC) to 'ID_EX/genblk1[152].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[152].FF/Q_reg' (FDC) to 'ID_EX/genblk1[148].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[147].FF/Q_reg' (FDC) to 'ID_EX/genblk1[148].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[148].FF/Q_reg' (FDC) to 'ID_EX/genblk1[149].FF/Q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ID_EX/\genblk1[149].FF/Q_reg )
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[18]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[19]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[20]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[21]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[22]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[23]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[24]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[25]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[25]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[26]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[26]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[27]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[27]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[28]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[28]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[29]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[29]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[30]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[30]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[31]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[31]  is always disabled
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[31].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[30].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[29].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[28].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[27].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[26].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[25].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[24].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[23].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[22].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[21].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[20].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[19].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[18].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[17].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[16].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[15].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[14].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[13].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[12].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[11].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[10].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[9].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[8].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[7].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[6].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[5].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[4].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[3].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[2].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[1].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[0].mod1/genblk1[8].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[31].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[30].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[29].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[28].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[27].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[26].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[25].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[24].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[23].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[22].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[21].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[20].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[19].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[18].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[17].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[16].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[15].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[14].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[13].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[12].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[11].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[10].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[9].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[8].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[7].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[6].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[5].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[4].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[3].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[2].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[1].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[0].mod1/genblk1[9].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[31].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[30].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[29].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[28].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[27].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[26].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[25].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[24].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[23].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[22].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[21].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[20].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[19].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[18].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[17].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[16].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[15].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[14].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[13].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[12].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[11].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[10].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[9].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[8].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[7].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[6].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[5].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[4].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[3].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[2].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[1].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[0].mod1/genblk1[10].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[31].mod1/genblk1[11].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[30].mod1/genblk1[11].mod2/Q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/\genblk1[29].mod1/genblk1[11].mod2/Q_reg )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[51].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[149].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[52].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[53].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[54].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[55].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[56].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[57].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[58].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[115].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[120].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[83].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[84].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[85].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[86].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[87].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[88].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'ID_EX/genblk1[89].FF/Q_reg' (FDC) to 'ID_EX/genblk1[90].FF/Q_reg'
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[8]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[9]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[10]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[11]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[12]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[13]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[14]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[15]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[16]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[17]  is always disabled
+WARNING: [Synth 8-264] enable of latch Hybrid_Mem/\my_data_reg[17]  is always disabled
+INFO: [Common 17-14] Message 'Synth 8-264' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (IN0/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN1/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN2/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN3/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN4/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN5/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN6/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (IN7/rxshiftreg_reg[0]) is unused and will be removed from module UART_receiver_multiple_Keys.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[77].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[78].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[79].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[80].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[81].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[82].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[83].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[84].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[85].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[86].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[87].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[88].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[89].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[90].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[91].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[92].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[93].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[94].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[95].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[96].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[97].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[98].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[99].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[100].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[101].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[102].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[103].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[104].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[105].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[106].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[107].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[108].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[109].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[110].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[111].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[112].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[113].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[114].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[115].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[116].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[117].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[118].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[119].FF/Q_reg) is unused and will be removed from module N_bit_register.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[0].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[1].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[2].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[3].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[4].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[5].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[6].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[7].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[8].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[9].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[10].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[11].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[12].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[13].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[14].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[15].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[16].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[17].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[18].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[19].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[20].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[21].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[22].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[23].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[24].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[25].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[26].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[27].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[28].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[29].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[30].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[0].mod1/genblk1[31].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[0].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[1].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[2].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[3].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[4].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[5].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[6].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[7].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[8].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[9].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[10].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[11].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[12].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[13].mod2/Q_reg) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (genblk1[1].mod1/genblk1[14].mod2/Q_reg) is unused and will be removed from module RegFile.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[14].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[22].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[30].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[6].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[13].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[21].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[29].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[5].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[20].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[28].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[36].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[12].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[18].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[26].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[34].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[10].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[19].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[27].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[35].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[11].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[15].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[23].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[31].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[7].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[16].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[24].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[32].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[8].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[17].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[25].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[33].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[9].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[59].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[67].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[67].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[51].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[55].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[63].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[47].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[57].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[65].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[65].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[61].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[49].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[61].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[53].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[61].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[61].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[45].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[45].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[58].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[66].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[50].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[54].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[62].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[46].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[56].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[64].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Synth 8-3886] merging instance 'EX_MEM/genblk1[48].FF/Q_reg' (FDC) to 'EX_MEM/genblk1[43].FF/Q_reg'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    37|
+|3     |LUT1   |   150|
+|4     |LUT2   |    31|
+|5     |LUT3   |    75|
+|6     |LUT4   |    72|
+|7     |LUT5   |    53|
+|8     |LUT6   |    43|
+|9     |FDRE   |   336|
+|10    |LD     |     6|
+|11    |IBUF   |     2|
+|12    |OBUF   |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+------------------------------------------+------+
+|      |Instance              |Module                                    |Cells |
++------+----------------------+------------------------------------------+------+
+|1     |top                   |                                          |   833|
+|2     |  ID_EX               |N_bit_register__parameterized0            |    12|
+|3     |    \genblk1[117].FF  |dflipflop_11                              |     2|
+|4     |    \genblk1[118].FF  |dflipflop_12                              |     2|
+|5     |    \genblk1[119].FF  |dflipflop_13                              |     1|
+|6     |    \genblk1[120].FF  |dflipflop_14                              |     3|
+|7     |    \genblk1[121].FF  |dflipflop_15                              |     1|
+|8     |    \genblk1[122].FF  |dflipflop_16                              |     1|
+|9     |    \genblk1[21].FF   |dflipflop_17                              |     2|
+|10    |  IF_ID               |N_bit_register                            |     6|
+|11    |    \genblk1[34].FF   |dflipflop_5                               |     1|
+|12    |    \genblk1[35].FF   |dflipflop_6                               |     1|
+|13    |    \genblk1[36].FF   |dflipflop_7                               |     1|
+|14    |    \genblk1[37].FF   |dflipflop_8                               |     1|
+|15    |    \genblk1[38].FF   |dflipflop_9                               |     1|
+|16    |    \genblk1[39].FF   |dflipflop_10                              |     1|
+|17    |  PC_reg              |PC_register                               |    12|
+|18    |    \genblk1[2].mod2  |dflipflop                                 |     2|
+|19    |    \genblk1[3].mod2  |dflipflop_0                               |     2|
+|20    |    \genblk1[4].mod2  |dflipflop_1                               |     2|
+|21    |    \genblk1[5].mod2  |dflipflop_2                               |     2|
+|22    |    \genblk1[6].mod2  |dflipflop_3                               |     2|
+|23    |    \genblk1[7].mod2  |dflipflop_4                               |     2|
+|24    |  modssd              |Four_Digit_Seven_Segment_Driver_Optimized |    62|
+|25    |  nolabel_line10      |UART_receiver_multiple_Keys               |   688|
+|26    |    IN0               |UART_receiver_switch__parameterized6      |    86|
+|27    |    IN1               |UART_receiver_switch__parameterized5      |    83|
+|28    |    IN2               |UART_receiver_switch__parameterized4      |    87|
+|29    |    IN3               |UART_receiver_switch__parameterized3      |    86|
+|30    |    IN4               |UART_receiver_switch__parameterized2      |    91|
+|31    |    IN5               |UART_receiver_switch__parameterized1      |    89|
+|32    |    IN6               |UART_receiver_switch__parameterized0      |    85|
+|33    |    IN7               |UART_receiver_switch                      |    81|
++------+----------------------+------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 685.996 ; gain = 476.184
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3019 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 685.996 ; gain = 131.047
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 685.996 ; gain = 476.184
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE: 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+389 Infos, 330 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 685.996 ; gain = 463.082
+INFO: [Common 17-1381] The checkpoint 'C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.runs/synth_1/RISCVHandler.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 685.996 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 01:03:52 2020...

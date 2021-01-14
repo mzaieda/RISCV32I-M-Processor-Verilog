@@ -1,0 +1,27 @@
+0.6
+2016.4
+Dec 14 2016
+22:58:16
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.sim/sim_1/behav/glbl.v,1481753704,verilog,,,,glbl,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sim_1/new/RISCVHandler_tb.v,1606057768,verilog,,,,RISCVHandler_tb,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/ALU_control_unit.v,1606287616,verilog,,,,ALU_control_unit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/N_bit_register.v,1605614280,verilog,,,,N_bit_register,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/PC_register.v,1605614374,verilog,,,,PC_register,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/RISCVHandler.v,1606339404,verilog,,,,RISCVHandler,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/RegFile.v,1606265224,verilog,,,,RegFile,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/RippleCarryAdder.v,1605615092,verilog,,,,FullAdder;RippleCarryAdder,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/branchOutput.v,1605614336,verilog,,,C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/defines.v,branchOutput,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/control_unit.v,1606011203,verilog,,,,control_unit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/decoder32.v,1605614757,verilog,,,,decoder32,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/defines.v,1605614307,verilog,,,,,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/dflipflop.v,1605614225,verilog,,,,dflipflop,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/fence_ebreak.v,1606284265,verilog,,,,fence_ebreak,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/forwardingUnit.v,1605615946,verilog,,,,forwardingUnit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/mux2.v,1605615308,verilog,,,,mux2,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/mux_4x1.v,1606007531,verilog,,,,mux_4x1,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/mux_4x1_four.v,1606145251,verilog,,,,mux_4x1_four,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/muxarray.v,1605614212,verilog,,,,muxarray,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/prv32_ALU.v,1606009098,verilog,,,,prv32_ALU,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/rv32_ImmGen.v,1605615318,verilog,,,C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/defines.v,rv32_ImmGen,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/shifter.v,1605614780,verilog,,,C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/defines.v,shifter,,,,,,,,
+C:/Users/CSE.CAL/Desktop/omar2/MS4/MS4.srcs/sources_1/new/single_memory.v,1606287317,verilog,,,,single_memory,,,,,,,,

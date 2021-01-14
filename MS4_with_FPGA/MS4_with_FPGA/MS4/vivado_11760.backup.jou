@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Nov 22 16:37:57 2020
+# Process ID: 11760
+# Current directory: C:/Users/CSE.CAL/Desktop/MS4_Latest/MS4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9120 C:\Users\CSE.CAL\Desktop\MS4_Latest\MS4\MS4.xpr
+# Log file: C:/Users/CSE.CAL/Desktop/MS4_Latest/MS4/vivado.log
+# Journal file: C:/Users/CSE.CAL/Desktop/MS4_Latest/MS4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/CSE.CAL/Desktop/MS4_Latest/MS4/MS4.xpr
+launch_simulation
+open_wave_config C:/Users/CSE.CAL/Desktop/MS4_Latest/MS4/RISCVHandler_tb_behav.wcfg
+source RISCVHandler_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

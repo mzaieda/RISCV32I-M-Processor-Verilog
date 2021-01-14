@@ -1,0 +1,49 @@
+Unable to capture context for thread 5000 in process 11916, can not generate back trace
+Unable to capture context for thread 11764 in process 11916, can not generate back trace
+Unable to capture context for thread 10604 in process 11916, can not generate back trace
+Unable to capture context for thread 4060 in process 11916, can not generate back trace
+Unable to capture context for thread 5152 in process 11916, can not generate back trace
+Unable to capture context for thread 8748 in process 11916, can not generate back trace
+Exception at PC 0x00007FFD9EB4BB93
+Printing stacktrace...
+
+Unable to capture context for thread 11764 in process 11916, can not generate back trace
+Unable to capture context for thread 10604 in process 11916, can not generate back trace
+Unable to capture context for thread 5152 in process 11916, can not generate back trace
+Exception at PC 0x00007FFE154E3B29
+Unable to capture context for thread 11716 in process 11916, can not generate back trace
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+[0]  [0x00007FFD9EB4BB93]
+[1]  [0x00007FFD9EB4BB93]
+[2]  [0x00007FFD9EB4B4A1]
+[3]  [0x00007FFD9EB4B459]
+[4]  [0x00007FFD9EB319FE]
+[5]  [0x00007FFD9EB30ED1]
+[6]  [0x00007FFD9EB30D76]
+[7]  [0x00007FFD9EAD79F6]
+[8]  [0x00007FFD9EAC7AFB]
+[9]  [0x00007FFD9EBEE90A]
+[10]  [0x00007FFD9EC09F87]
+[11]  [0x00007FFD9EC0A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFE16CF7C24]
+[13] (RtlUserThreadStart+0x21) [0x00007FFE182ED4D1]
+Done
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29
+Exception at PC 0x00007FFE154E3B29

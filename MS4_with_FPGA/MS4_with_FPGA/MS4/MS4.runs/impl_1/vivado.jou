@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Nov 24 01:03:59 2020
+# Process ID: 904
+# Current directory: C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.runs/impl_1
+# Command line: vivado.exe -log RISCVHandler.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RISCVHandler.tcl -notrace
+# Log file: C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.runs/impl_1/RISCVHandler.vdi
+# Journal file: C:/Users/CSE.CAL/Desktop/MS4_with_FPGA/MS4_with_FPGA/MS4/MS4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RISCVHandler.tcl -notrace
